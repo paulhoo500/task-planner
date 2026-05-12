@@ -2,6 +2,7 @@
     "name": "taskplanner",
     "displayName": "Task Planner",
     "description": "记录代码流程和计划的任务列表",
+    "publisher": "paulhoo500",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.80.0"
@@ -51,5 +52,13 @@
         "@types/vscode": "^1.80.0",
         "@types/node": "16.x",
         "typescript": "^5.1.3"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paulhoo500/task-planner.git"
+    },
+    "bugs": {
+        "url": "https://github.com/paulhoo500/task-planner/issues"
+    },
+    "homepage": "https://github.com/paulhoo500/task-planner#readme"
 }
