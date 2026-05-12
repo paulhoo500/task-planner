@@ -1,0 +1,55 @@
+{
+    "name": "taskplanner",
+    "displayName": "Task Planner",
+    "description": "记录代码流程和计划的任务列表",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [],
+    "main": "./out/extension.js",
+    "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "taskplanner-explorer",
+                    "title": "Task Planner",
+                    "icon": "$(checklist)"
+                }
+            ]
+        },
+        "views": {
+            "taskplanner-explorer": [
+                {
+                    "type": "webview",
+                    "id": "taskplanner.taskView",
+                    "name": "Tasks"
+                }
+            ]
+        },
+        "configuration": {
+            "title": "Task Planner",
+            "properties": {
+                "taskplanner.fontSize": {
+                    "type": "string",
+                    "default": "14px",
+                    "description": "任务列表界面的字体大小 (例如: 14px, 1rem)"
+                }
+            }
+        }
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/vscode": "^1.80.0",
+        "@types/node": "16.x",
+        "typescript": "^5.1.3"
+    }
+}
