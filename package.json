@@ -1,9 +1,9 @@
 {
-    "name": "taskplanner",
+    "name": "taskplanner-pro",
     "displayName": "Task Planner",
     "description": "记录代码流程和计划的任务列表",
     "publisher": "paulhoo500",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.80.0"
     },
