@@ -1,3 +1,5 @@
+![任务演示](https://github.com/paulhoo500/task-planner/blob/main/demo.gif)
+
 1. 项目愿景
 
 本插件旨在为开发者提供一种“项目内嵌式”的任务追踪方案。通过在项目根目录生成一个
