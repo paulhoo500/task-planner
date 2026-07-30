@@ -1,5 +1,45 @@
 ![任务演示](https://github.com/paulhoo500/task-planner/blob/main/demo.gif)
 
+Task Flow Planner
+A minimalist, project-embedded task management solution for developers. Built for speed, precision, and version control.
+
+1. Vision
+Task Flow Planner brings task management directly into your workspace. By generating a JSON file bound to your project, it keeps your planning and development in perfect sync. Your task history becomes part of your code's evolution.
+
+2. Core Features
+A. Minimalist Task View (Side Bar)
+
+Clean List: A clutter-free sidebar view to track your current project tasks.
+
+Quick Add: A persistent "New Task" button at the bottom for capturing ideas instantly.
+
+Status Management: Simple checkboxes for effortless state tracking.
+
+B. Auto-Timestamping Logic
+
+Metadata Tracking: Automatic generation of creation and last-modified timestamps for every task.
+
+Completion Insight: Completed tasks capture the exact timestamp of achievement (YYYY-MM-DD HH:mm).
+
+C. Seamless Interaction
+
+In-Place Editing: Every task can be edited directly within the list.
+
+Local Persistence: Automatically creates/updates a [ProjectName].json file in your workspace root.
+
+D. Latest Updates (2026.05.01)
+
+File Association: Automatic linkage—click to open relevant files directly.
+
+Visual Status: Completed tasks are highlighted in green for quick scanning.
+
+Focus Mode: New task input fields are now centered to minimize distractions and maximize input efficiency.
+
+3. Data Schema (JSON)
+The data is stored in a structured JSON format, making it fully Git-compatible and easy to modify manually:
+
+-------------I!---------AM!----------SEPARATOR~~~~~~~-------------------
+
 1. 项目愿景
 
 本插件旨在为开发者提供一种“项目内嵌式”的任务追踪方案。通过在项目根目录生成一个
